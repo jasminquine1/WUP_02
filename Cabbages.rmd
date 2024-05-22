@@ -1,7 +1,7 @@
 ---
 title: "Cabbages"
 author: "Jasmin Quintanilla"
-date: "1-31-24 "
+date: "5-21-2024"
 output:
   html_document:
     df_print: paged
@@ -18,7 +18,7 @@ veggy <- cabbages
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
  
- The cabbages data from the MASS package is loaded into a data frame called veggy. Complete this report by answering the following two questions  
+ ### The cabbages data from the MASS package is loaded into a data frame called veggy. Complete this report by answering the following two questions  
  
 ### Is there a difference in average VitC between c39 and c52 cultivation methods?  
 
