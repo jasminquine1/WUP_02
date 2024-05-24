@@ -22,12 +22,17 @@ veggy <- cabbages
  
 ### Is there a difference in average VitC between c39 and c52 cultivation methods?  
 
+%H_0$: There is no difference in the avaege Vitamin C contest of cabbages based on cultivation method.
+
+$H_A%: There is a difference in the average vit c contest based on counting method.
+
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-product Vitamin c based in cultivation method. 
-Vitamin c is Numerical, cult is categorical, so we use the numerical- cat helper file. 
+Vitamin C is numerical, cultivation is categorical 
+
+numerical~categorical so we use the Numeical~Cat helper file 
 
 # Results
 
@@ -53,9 +58,8 @@ The boxplot shows that VitC is higher in c52
 favstats(VitC~Cult,data=veggy)
 ```
 
+The numerical summary shows that c52 is lager than c39
 
- This table shows that the mean c39 is smaller than c52.
- 
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
